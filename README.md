@@ -8,4 +8,4 @@
 
 本项目部分硬件和代码参考自https://github.com/AnalogDragon/TouchPad-Demo ，并在该项目基础上作了一定的修改。
 
-![image-20260311103707324](C:\Users\gezhe\AppData\Roaming\Typora\typora-user-images\image-20260311103707324.png)
+<img width="1323" height="927" alt="image" src="https://github.com/user-attachments/assets/a61eacde-a239-43cf-befc-39610f33f032" />
