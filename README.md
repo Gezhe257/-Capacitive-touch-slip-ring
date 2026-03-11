@@ -9,3 +9,13 @@
 本项目部分硬件和代码参考自https://github.com/AnalogDragon/TouchPad-Demo ，并在该项目基础上作了一定的修改。
 
 <img width="1323" height="927" alt="image" src="https://github.com/user-attachments/assets/a61eacde-a239-43cf-befc-39610f33f032" />
+
+
+
+## 电容测量原理
+
+<img width="710" height="308" alt="image" src="https://github.com/user-attachments/assets/506602e9-07fd-44a3-af45-5530f96ad77b" />
+
+PWM输出一个1kHz，占空比50的PWM波，高电平期间，通过一个1M的电阻给电容充电，下降沿时，进行ADC采样，即可获得当前的电容值，当手指放在触摸板上，电容增大，根据 U = Q/C，电压变小，即判定当前触摸板发生了触摸。
+
+触摸位置的判定是根据各个极板的触摸强度进行反正切计算后得到的，详情请参见代码。
